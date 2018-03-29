@@ -1,0 +1,29 @@
+{
+  "name": "vdom",
+  "version": "1.0.0",
+  "description": "vdom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "dev": "rollup -c --watch",
+    "start": "node server"
+  },
+  "author": "Cecil0o0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.3"
+  },
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-static": "^4.0.2"
+  }
+}
